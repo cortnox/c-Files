@@ -14,11 +14,11 @@ These files were written / generated / compiled on a MacOS system They are simpl
 To generate a file 
 type in the below command into the console.
 
-avr-project <DemoAVRProjectNameHere> 
+avr-project -DemoAVRProjectNameHere-
 //this might work if you have avr-gcc and avrlibc packages already.. try it out...
 
-This will generate a folder with the name:<DemoAVRProjectNameHere> 
-where <DemoAVRProjectNameHere> is Project name that is specified.
+This will generate a folder with the name:-DemoAVRProjectNameHere-
+where -DemoAVRProjectNameHere- is Project name that is specified.
 
 Once the folder is generated this can be further navigated into and
 one will see an <DemoAVRProjectNameHere>.XcodeProject (don’t worry about that its only for opening it with the Xcode IDE) file as well as a firmware folder and in navigating into that firmware folder they should see a Makefile file as-well as a main.c file
